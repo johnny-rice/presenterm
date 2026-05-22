@@ -158,6 +158,13 @@ nushell:
   filename: snippet.nu
   commands:
     - ["nu", "$pwd/snippet.nu"]
+ocaml:
+    filename: "snippet.ml"
+    hidden_line_prefix: "(* "
+    environment:
+      OCAML_COLOR: "always"
+    commands:
+      - ["ocaml", "-color", "always", "$pwd/snippet.ml"]
 perl:
   filename: snippet.pl
   commands:
